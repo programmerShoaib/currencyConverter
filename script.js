@@ -1,4 +1,10 @@
-let BASE_URL = "https://2024-03-06.currency-api.pages.dev/v1/currencies/UYU.json";
+let BASE_URL = `https://2024-03-06.currency-api.pages.dev/v1/currencies`;
+
+let dropdowns = document.querySelectorAll("#dropdowns select");
+let btn = document.querySelector("form button");
+let fromCurrency = document.querySelector("#from select");
+let toCurrency = document.querySelector("#to select");
+let msg = document.querySelector("#message");
 // let API_KEY = "a5d2e9d7d5b4c8d1e2f3c4d5e6f7c8d9";
 // let amount = document.getElementById("amount");
 // let from = document.getElementById("from");
